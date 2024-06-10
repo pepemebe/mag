@@ -1,5 +1,5 @@
 {
-    "addon_version": "4.0.06.01", 
+    "addon_version": "4.0.07.01", 
     "files": {
         "channels": [
             "pelitorrent", 
@@ -9,6 +9,7 @@
             "patchmod"
         ], 
         "root dir": [
+            "alert_mod", 
             "default", 
             "info_mod", 
             "services", 
@@ -16,6 +17,6 @@
         ]
     }, 
     "fix_version": 0, 
-    "hash": "af9a4be24180119c7ccd460ba7d0b4fc", 
+    "hash": "a1e998f3763bd01308ba85ea8d624a2d", 
     "mod_version": 0
 }
