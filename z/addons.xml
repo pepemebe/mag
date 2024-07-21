@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.MaxEd" version="3.3.1" name="Estuary MaxEDITion" provider-name="darkozma, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.MaxEd" version="3.3.2" name="Estuary MaxEDITion" provider-name="darkozma, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
                 <import addon="resource.images.skinbackgrounds.clearMod" version="1.1.9"/>
@@ -50,7 +50,8 @@
 			<screenshot>resources/screenshot-09.png</screenshot>
 		</assets>
 		<news>[COLOR blue][B]Skin Estuary MaxEd[/B][/COLOR]
-[COLOR green][B]•3.3.1[/B] Repair Menu.[/COLOR]
+[COLOR green][B]•3.3.2[/B] Update Menu.[/COLOR]
+[COLOR yellow][B]•3.3.1[/B] Repair Menu.[/COLOR]
 [COLOR yellow][B]•3.2.9[/B] Update item Menu.[/COLOR]
 [COLOR yellow][B]•3.2.5[/B] Update item Menu.[/COLOR]
 [COLOR yellow][B]•3.2.3[/B] Update item Menu.[/COLOR]
@@ -69,7 +70,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.MaxEdv3" version="4.1.4" name="Estuary MaxEd v3" provider-name="phil65, Ichabod Fletchman, pepemebe">
+<addon id="skin.estuary.MaxEdv3" version="4.1.5" name="Estuary MaxEd v3" provider-name="phil65, Ichabod Fletchman, pepemebe">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
                 <import addon="resource.images.skinbackgrounds.clearMod" version="1.1.9"/>
@@ -119,7 +120,8 @@
 		<disclaimer lang="en_GB">[COLOR red]Estuary MaxEd v3 is a mod skin for Kodi.[/COLOR]</disclaimer>
 		<disclaimer lang="es_ES">[COLOR red]Estuary MaxEd v3 es una modificación del skin para Kodi.[/COLOR]</disclaimer>
 		<news>[COLOR blue][B]Skin Estuary MaxEd v3[/B][/COLOR]
-[COLOR green][B]•4.1.4[/B] Repair menu.[/COLOR]
+[COLOR green][B]•4.1.5[/B] Update menu.[/COLOR]
+[COLOR yellow][B]•4.1.4[/B] Repair menu.[/COLOR]
 [COLOR yellow][B]•4.1.2[/B] Menu fix.[/COLOR]
 [COLOR yellow][B]•4.1.1[/B] Minor bug fix.[/COLOR]
 [COLOR yellow][B]•4.1.0[/B] Bug fix.[/COLOR]
