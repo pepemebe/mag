@@ -1,16 +1,15 @@
 {
-    "addon_version": "0.5.0", 
+    "addon_version": "0.5.3", 
     "files": {
         "channels": [
             "pelitorrent", 
             "torrents"
         ], 
         "root dir": [
-            "alert_mod", 
             "info_mod"
         ]
     }, 
     "fix_version": 0, 
-    "hash": "443c0597b513ed9d9ab5d14484dd9018", 
+    "hash": "92a9e251cd82b41cb2ebccf9944a6d87", 
     "mod_version": 0
 }
