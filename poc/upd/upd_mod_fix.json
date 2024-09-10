@@ -2,8 +2,7 @@
     "addon_version": "4.0.10.01", 
     "files": {
         "channels": [
-            "pelitorrent", 
-            "torrents"
+            "pelitorrent"
         ], 
         "platformcode": [
             "patchmod"
@@ -17,6 +16,6 @@
         ]
     }, 
     "fix_version": 0, 
-    "hash": "47eaed3075fa96eb9b9e5eeedd9c88c8", 
-    "mod_version": 2
+    "hash": "d4bcb02f57d00ee0fe107df1e3e041d2", 
+    "mod_version": 3
 }
