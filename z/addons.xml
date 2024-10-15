@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.ElBarcoDeSabetOnline" version="0.2.5" name="El Barco de Sabet Online" provider-name="Sabet">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Addon para reproducir enlaces Acestream desde la web.</summary>
+        <description lang="es">Este addon permite reproducir enlaces Acestream desde ElBarco.</description>
+        <platform>all</platform>
+        <version>0.2.5</version>
+        <provider-name>Sabet</provider-name>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="skin.estuary.MaxEd" version="3.3.4" name="Estuary MaxEDITion" provider-name="darkozma, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
