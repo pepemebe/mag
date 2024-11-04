@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.ElBarcoDeSabetOnline" version="0.2.5" name="El Barco de Sabet Online" provider-name="Sabet">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">Addon para reproducir enlaces Acestream desde la web.</summary>
-        <description lang="es">Este addon permite reproducir enlaces Acestream desde ElBarco.</description>
-        <platform>all</platform>
-        <version>0.2.5</version>
-        <provider-name>Sabet</provider-name>
-        <assets>
-            <icon>icon.jpg</icon>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="skin.estuary.MaxEd" version="3.3.5" name="Estuary MaxEDITion" provider-name="darkozma, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
@@ -201,7 +180,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="4.0.11.01" provider-name="Team Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="4.0.12.01" provider-name="Team Balandro">
   <requires>
      <import addon="script.module.requests"/>
   </requires>
@@ -221,7 +200,7 @@
       <screenshot>resources/screenshots/4.jpg</screenshot>
     </assets>
     <news>
-    [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]4.0.11.01[/COLOR][COLOR chartreuse]  Mod Septiembre de 2024[/B][/COLOR]
+    [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]4.0.12.01[/COLOR][COLOR chartreuse]  Mod Noviembre de 2024[/B][/COLOR]
 
     [COLOR goldenrod][B]Media Centers:[/B][/COLOR]
         [COLOR tan][B]Kodi Versiones Oficiales Soportadas:[/B][/COLOR]
