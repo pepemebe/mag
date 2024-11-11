@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.ElBarcoDeSabetOnline" version="0.3.7" name="El Barco de Sabet Online" provider-name="Sabet">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Navega con El Barco</summary>
+        <description lang="es">Navega con El Barco</description>
+        <platform>all</platform>
+        <version>0.3.7</version>
+        <provider-name>Sabet</provider-name>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="skin.estuary.MaxEd" version="3.3.5" name="Estuary MaxEDITion" provider-name="darkozma, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
