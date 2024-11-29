@@ -246,7 +246,7 @@
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
-<addon id="plugin.video.blackcat2" name="BlackCat v2" version="1.2.7" provider-name="korda">
+<addon id="plugin.video.blackcat2" name="BlackCat v2" version="1.2.9" provider-name="korda">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />
@@ -271,8 +271,9 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news>
-            ~[1.2.7] Corrección de errores SUP.
-            ~[1.0.9] Primera versión liberada.
+            ~[1.2.9] HDN minor fix.
+            ~[1.2.7] Bug fix SUP.
+            ~[1.0.9] First release.
         </news>
     </extension>
 </addon>
