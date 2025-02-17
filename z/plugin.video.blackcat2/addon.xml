@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.blackcat2" name="BlackCat v2" version="1.2.9" provider-name="korda">
+<addon id="plugin.video.blackcat2" name="BlackCat v2" version="1.3.0" provider-name="korda">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.25.1" />
@@ -24,6 +24,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news>
+            ~[1.3.0] Add ls+ and 3cp support.
             ~[1.2.9] HDN minor fix.
             ~[1.2.7] Bug fix SUP.
             ~[1.0.9] First release.
