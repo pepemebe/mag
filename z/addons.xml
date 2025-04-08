@@ -70,18 +70,20 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.MaxEdv3" version="4.2.1" name="Estuary MaxEDITion v3" provider-name="phil65, Ichabod Fletchman, pepemebe">
+<addon id="skin.estuary.MaxEdv3" version="4.2.2" name="Estuary MaxEDITion v3" provider-name="phil65, Ichabod Fletchman, pepemebe">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
                 <import addon="resource.images.skinbackgrounds.clearMod" version="1.1.9"/>
                 <import addon="resource.images.weatherfanart.faded" optional="true"/>
                 <import addon="resource.images.moviegenrefanart.wall-grey" optional="true"/>
                 <import addon="script.extendedinfo" optional="true"/>
-                <import addon="script.module.horus"  version="1.1.9"/>
-                <!-- import addon="plugin.video.cristalazul"  version="3.0.9"/ -->
-                <!-- import addon="plugin.video.moestv"  optional="true"/ -->
-                <import addon="plugin.video.balandro"  version="4.0.11.01"/>
-                <import addon="plugin.video.blackcat2"  version="1.2.7"/>
+                <import addon="script.module.horus" version="1.1.9"/>
+                <!-- import addon="repository.magellan" version="1.0.0"/ -->
+                <!-- import addon="plugin.video.Magellan_Matrix" version="3.0.0"/ -->
+                <import addon="plugin.video.moestv" optional="true"/>
+                <import addon="plugin.video.balandro" version="4.0.16"/>
+                <import addon="plugin.video.blackcat2" version="1.3.3"/>
+                <import addon="script.module.ModMax" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -121,7 +123,8 @@
 		<disclaimer lang="en_GB">[COLOR red]Estuary MaxEd v3 is a mod skin for Kodi.[/COLOR]</disclaimer>
 		<disclaimer lang="es_ES">[COLOR red]Estuary MaxEd v3 es una modificación del skin para Kodi.[/COLOR]</disclaimer>
 		<news>[COLOR blue][B]Skin Estuary MaxEd v3[/B][/COLOR]
-[COLOR green][B]•4.2.1[/B] Update menu BC2.[/COLOR]
+[COLOR green][B]•4.2.2[/B] Update menu and more.[/COLOR]
+[COLOR yellow][B]•4.2.1[/B] Update menu BC2.[/COLOR]
 [COLOR yellow][B]•4.1.9[/B] Update menu.[/COLOR]
 [COLOR yellow][B]•4.1.4[/B] Repair menu.[/COLOR]
 [COLOR yellow][B]•4.1.2[/B] Menu fix.[/COLOR]
@@ -182,7 +185,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="4.0.16.01" provider-name="Team Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="4.0.16.02" provider-name="Team Balandro">
   <requires>
      <import addon="script.module.requests"/>
   </requires>
@@ -202,7 +205,7 @@
       <screenshot>resources/screenshots/4.jpg</screenshot>
     </assets>
     <news>
-    [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]4.0.16.01[/COLOR][COLOR chartreuse]  Mod Marzo de 2025[/B][/COLOR]
+    [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]4.0.16[/COLOR][COLOR chartreuse]  Marzo de 2025[/B][/COLOR]
 
     [COLOR goldenrod][B]Media Centers:[/B][/COLOR]
         [COLOR tan][B]Kodi Versiones Oficiales Soportadas:[/B][/COLOR]
@@ -244,6 +247,42 @@
   </extension>
 
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
+</addon>
+
+<addon id="script.module.ModMax" name="ModMax" version="1.0.0" provider-name="pepemebe">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="script.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ca_ES">ModMax permet modificar alguns complements.</summary>
+        <summary lang="en_GB">ModMax allows you to modify some addons.</summary>
+        <summary lang="es_ES">ModMax permite modificar algunos complementos.</summary>
+        <description lang="ca_ES">Aquest complement permet instal·lar algunes modificacions.</description>
+        <description lang="en_GB">This addon allows you install some modifications.</description>
+        <description lang="es_ES">Este addon permite instalar algunas modificaciones.</description>
+        <disclaimer lang="ca_ES">[COLOR red]ModMax no distribueix cap tipus de contingut.[/COLOR]</disclaimer>
+        <disclaimer lang="en_GB">[COLOR red]ModMax does not distribute any content.[/COLOR]</disclaimer>
+        <disclaimer lang="es_ES">[COLOR red]ModMax no distribuye ningún tipo de contenido.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+              <screenshot>resources/media/cap1.png</screenshot>
+              <screenshot>resources/media/cap2.png</screenshot>
+              <screenshot>resources/media/cap3.png</screenshot>
+        </assets>
+        <news>[COLOR blue][B]ModMax[/B][/COLOR]
+[COLOR green][B]•1.0.0[/B] First public RC.[/COLOR]
+[COLOR yellow][B]•0.0.7[/B] First public beta.[/COLOR]
+[COLOR yellow][B]•0.0.1[/B] Initial alpha.[/COLOR]
+        </news>
+        <forum>https://t.me/+u7TRIQPkiYhiYzQ0</forum>
+    </extension>
+    <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
 <addon id="script.module.horus" name="Horus" version="1.1.9" provider-name="Caperucitaferoz">
