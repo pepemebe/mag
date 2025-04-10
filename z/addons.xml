@@ -185,7 +185,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="4.0.16" provider-name="Team Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="4.0.16.02" provider-name="Team Balandro">
   <requires>
      <import addon="script.module.requests"/>
   </requires>
@@ -249,7 +249,7 @@
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
-<addon id="script.module.ModMax" name="ModMax" version="1.0.0" provider-name="pepemebe">
+<addon id="script.module.ModMax" name="ModMax" version="1.0.1" provider-name="pepemebe">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.requests" />
@@ -276,7 +276,8 @@
               <screenshot>resources/media/cap3.png</screenshot>
         </assets>
         <news>[COLOR blue][B]ModMax[/B][/COLOR]
-[COLOR green][B]•1.0.0[/B] First public RC.[/COLOR]
+[COLOR green][B]•1.0.1[/B] Minor bug fix.[/COLOR]
+[COLOR yellow][B]•1.0.0[/B] First public RC.[/COLOR]
 [COLOR yellow][B]•0.0.7[/B] First public beta.[/COLOR]
 [COLOR yellow][B]•0.0.1[/B] Initial alpha.[/COLOR]
         </news>
