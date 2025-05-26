@@ -1,0 +1,11 @@
+<item>
+    <active>0</active>
+    <host>https://raw.githubusercontent.com/pepemebe/mag/main/poc/act2.xml</host>
+    <hos3>https://raw.githubusercontent.com/pepemebe/mag/main/poc/act3.xml</hos3>
+    <host_movie>https://raw.githubusercontent.com/830NY/tacones_publico/main/cine.xml</host_movie>
+    <host_tvshow>https://raw.githubusercontent.com/830NY/tacones_publico/main/series.xml</host_tvshow>
+    <host_tvshow_new>https://raw.githubusercontent.com/830NY/Tacones/main/capitulos_nuevos</host_tvshow_new>
+    <kudos>La Mala De La Novela (TACONES)</kudos>
+    <aces>EMPTY</aces>
+    <reset>0</reset>
+</item>

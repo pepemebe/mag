@@ -1,0 +1,5 @@
+[COLOR blue][B]ModMax[/B][/COLOR]
+[COLOR green][B]•1.0.1[/B] Minor bug fix.[/COLOR]
+[COLOR yellow][B]•1.0.0[/B] First public RC.[/COLOR]
+[COLOR yellow][B]•0.0.7[/B] First public beta.[/COLOR]
+[COLOR yellow][B]•0.0.1[/B] Initial alpha.[/COLOR]

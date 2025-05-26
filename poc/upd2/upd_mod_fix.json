@@ -1,0 +1,14 @@
+{
+    "addon_version": "1.0.1", 
+    "files": {
+        "channels": [
+            "pelitorrent"
+        ], 
+        "root dir": [
+            "info_mod"
+        ]
+    }, 
+    "fix_version": 0, 
+    "hash": "109dc772e187f724a4fdb0f5816f136f", 
+    "mod_version": 1
+}

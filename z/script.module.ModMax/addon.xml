@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.ModMax" name="ModMax" version="1.0.1" provider-name="pepemebe">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="script.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ca_ES">ModMax permet modificar alguns complements.</summary>
+        <summary lang="en_GB">ModMax allows you to modify some addons.</summary>
+        <summary lang="es_ES">ModMax permite modificar algunos complementos.</summary>
+        <description lang="ca_ES">Aquest complement permet instal·lar algunes modificacions.</description>
+        <description lang="en_GB">This addon allows you install some modifications.</description>
+        <description lang="es_ES">Este addon permite instalar algunas modificaciones.</description>
+        <disclaimer lang="ca_ES">[COLOR red]ModMax no distribueix cap tipus de contingut.[/COLOR]</disclaimer>
+        <disclaimer lang="en_GB">[COLOR red]ModMax does not distribute any content.[/COLOR]</disclaimer>
+        <disclaimer lang="es_ES">[COLOR red]ModMax no distribuye ningún tipo de contenido.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+              <screenshot>resources/media/cap1.png</screenshot>
+              <screenshot>resources/media/cap2.png</screenshot>
+              <screenshot>resources/media/cap3.png</screenshot>
+        </assets>
+        <news>[COLOR blue][B]ModMax[/B][/COLOR]
+[COLOR green][B]•1.0.1[/B] Minor bug fix.[/COLOR]
+[COLOR yellow][B]•1.0.0[/B] First public RC.[/COLOR]
+[COLOR yellow][B]•0.0.7[/B] First public beta.[/COLOR]
+[COLOR yellow][B]•0.0.1[/B] Initial alpha.[/COLOR]
+        </news>
+        <forum>https://t.me/+u7TRIQPkiYhiYzQ0</forum>
+    </extension>
+    <extension point="xbmc.service" library="services.py" start="login|startup"/>
+</addon>
