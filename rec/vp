@@ -1,10 +1,10 @@
 {
-    "usr0": "False",
-    "usr1": "False",
-    "usr2": "False",
-    "usr3": "False",
-    "usr4": "False",
-    "usr5": "False",
-    "usr6": "False",
-    "usr7": "True"
+    "usr0": 0,
+    "usr1": 0,
+    "usr2": 0,
+    "usr3": 0,
+    "usr4": 0,
+    "usr5": 0,
+    "usr6": 0,
+    "usr7": 1
 }
