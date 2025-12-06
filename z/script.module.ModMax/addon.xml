@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.ModMax" name="ModMax" version="2.2.7" provider-name="pepemebe">
+<addon id="script.module.ModMax" name="ModMax" version="2.2.9" provider-name="pepemebe">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.requests" />
@@ -26,7 +26,7 @@
               <screenshot>resources/media/cap3.png</screenshot>
         </assets>
         <news>[COLOR blue][B]ModMax[/B][/COLOR]
-[COLOR green][B]•2.2.7[/B] Add settings.[/COLOR]
+[COLOR green][B]•2.2.9[/B] Add settings.[/COLOR]
 [COLOR yellow][B]•2.2.5[/B] Redone the logic for localDB. RM chan PM.[/COLOR]
 [COLOR yellow][B]•2.2.1[/B] Minor Bug fix.[/COLOR]
 [COLOR yellow][B]•2.2.0[/B] Bug fix.[/COLOR]
