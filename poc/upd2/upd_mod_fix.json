@@ -1,11 +1,21 @@
 {
-    "addon_version": "2.2.9", 
+    "addon_version": "2.3.0", 
     "files": {
+        "channels": [
+            "pelitorrent"
+        ], 
+        "platformcode": [
+            "patchmod"
+        ], 
         "root dir": [
-            "info_mod"
+            "alert_mod", 
+            "default", 
+            "info_mod", 
+            "services", 
+            "version"
         ]
     }, 
     "fix_version": 0, 
-    "hash": "3f1e52a5279bbb71db6d60cad7ca595a", 
+    "hash": "4483ca14d34a17ad9025d80c0cbfd0aa", 
     "mod_version": 0
 }
