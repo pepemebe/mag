@@ -319,7 +319,7 @@
     <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
-<addon id="skin.estuary.MaxEdv4" version="5.0.9" name="Estuary MaxEDITion v4" provider-name="phil65, Ichabod Fletchman, pepemebe">
+<addon id="skin.estuary.MaxEdv4" version="5.1.1" name="Estuary MaxEDITion v4" provider-name="phil65, Ichabod Fletchman, pepemebe">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
                 <import addon="resource.images.skinbackgrounds.clearMod" version="1.1.9"/>
@@ -372,7 +372,8 @@
 		<disclaimer lang="en_GB">[COLOR red]Estuary MaxEd v4 is a mod skin for Kodi.[/COLOR]</disclaimer>
 		<disclaimer lang="es_ES">[COLOR red]Estuary MaxEd v4 es una modificación del skin para Kodi.[/COLOR]</disclaimer>
 		<news>[COLOR blue][B]Skin Estuary MaxEd v4[/B][/COLOR]
-[COLOR green][B]•5.0.9[/B] Germ test.[/COLOR]
+[COLOR green][B]•5.1.1[/B] ModMax Mgn change.[/COLOR]
+[COLOR yellow][B]•5.0.9[/B] Germ test.[/COLOR]
 [COLOR yellow][B]•5.0.8[/B] Lang bug fix.[/COLOR]
 [COLOR yellow][B]•5.0.5[/B] Fav bug fix.[/COLOR]
 [COLOR yellow][B]•5.0.4[/B] K21 comp.[/COLOR]
