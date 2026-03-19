@@ -1,11 +1,11 @@
 {
-    "addon_version": "2.3.1", 
+    "addon_version": "2.3.2", 
     "files": {
         "root dir": [
             "info_mod"
         ]
     }, 
     "fix_version": 0, 
-    "hash": "8ae1cd496f0af0848939c67162dd8159", 
+    "hash": "de8fde7c8b3badf650b3d5944b128b18", 
     "mod_version": 0
 }
