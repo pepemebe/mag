@@ -1,11 +1,14 @@
 {
     "addon_version": "2.3.2", 
     "files": {
+        "chan": [
+            "magnets"
+        ], 
         "root dir": [
             "info_mod"
         ]
     }, 
     "fix_version": 0, 
-    "hash": "de8fde7c8b3badf650b3d5944b128b18", 
-    "mod_version": 0
+    "hash": "196ad2cec164f847b0ef56657daceab1", 
+    "mod_version": 1
 }
